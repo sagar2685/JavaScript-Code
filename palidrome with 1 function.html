@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+
+//usage
+function Reverse(){
+var str = document.getElementById( 'mystring' ).value;
+ var str1 = str.split(''); //split the entered string
+str1 = str1.reverse(); //reverse the order
+str1 = str1.join(''); //then join the reverse order array values
+document.write(str1 )       
+      if (str == str1) 
+                alert(" is palindrome"); 
+            else
+                alert(" is not palindrome");                                                                                             }
+
+//reverse function
+
+
+</script>
+</head>
+<body>
+<h3>Reverse a String in JavaScript </h3>
+<input type="text" id="mystring" value="" />
+<button id="btn" onClick="Reverse()" >Click here to Reverse</button>
+</body>
+</html>
